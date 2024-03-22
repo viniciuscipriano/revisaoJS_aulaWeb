@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(164, 165, 125);
+    background-image: url("img5.jpeg");
+    background-repeat: no-repeat;
+    background-size: 138%;
+}
+
+#titleLogin {
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+#cimabaixo {
+    display: flex;
+    flex-direction: column;
+}
+
+#email {
+    margin-bottom: 30px;
+    border-color: rgb(0, 0, 0);
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: transparent;
+    width: 280px;
+}
+
+#senha {
+    margin-bottom: 45px;
+    border-color: black;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    background-color: transparent;
+    width: 280px;
+}
+
+checkboxx{
+    display: flex;
+    float: right;
+    font-size: 50px;
+}
+
+#esqueciSenha {
+    font-size: 14.5px;
+    margin-left: 65px;
+    color: black;
+    text-decoration: none;
+}
+
+#botao {
+    margin-bottom: 18px;
+    margin-top: 12px;
+    height: 6vh;
+    border-radius: 40px;
+    border-color: transparent;
+    font-size: 18px;
+}
+
+#registrar{
+    font-size: 13px;
+    margin-left: 7px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mover{
+    display: flex;
+    float: right;
+    justify-content: center;
+}
+
+#principal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 85vh;
+    padding-bottom: 5px;
+}
+
+#container {
+    font-family: 'Muli',sans-serif;
+    border: 1px solid rgb(0, 0, 0);
+    border-color: transparent;
+    border-radius: 15px;
+    padding-bottom: 60px;
+    padding-right: 45px;
+    padding-left: 45px;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, 0.2);
+}

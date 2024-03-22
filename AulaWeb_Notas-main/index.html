@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="website icon" type="png" href="webicon/icon.png">
+    <title>Registrador</title>
+</head>
+<body>
+    <main id="principal">
+        <form onsubmit="return addTabela()">
+            <div id="dados">
+                <h1>Digite os dados do aluno</h1>
+                
+                <label for="nome">Nome</label>
+                <input id="nome" type="text" name="nome" autocomplete="off" required>
+
+                <label for="nota">Nota</label>
+                <input id="nota" type="text" name="nota" required>
+
+                <button id="botao" type="submit">Inserir aluno</button>
+            </div>
+        </form>
+    </main>
+    <div id="tabmover">
+        <table id="tabela" border="1">
+            <thead id="thead">
+            </thead>
+            <tbody id="tbody">
+
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
